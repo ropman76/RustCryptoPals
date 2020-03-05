@@ -1,0 +1,12 @@
+C:\Users\tropson\CrytoPalsRep\RustCryptoPals\Set1Challenge1\target\debug\deps\libbase64-502c72e6dbe305f7.rlib: C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\lib.rs C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\chunked_encoder.rs C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\display.rs C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\tables.rs C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\write\mod.rs C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\write\encoder.rs C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\encode.rs C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\decode.rs
+
+C:\Users\tropson\CrytoPalsRep\RustCryptoPals\Set1Challenge1\target\debug\deps\base64-502c72e6dbe305f7.d: C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\lib.rs C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\chunked_encoder.rs C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\display.rs C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\tables.rs C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\write\mod.rs C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\write\encoder.rs C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\encode.rs C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\decode.rs
+
+C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\lib.rs:
+C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\chunked_encoder.rs:
+C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\display.rs:
+C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\tables.rs:
+C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\write\mod.rs:
+C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\write\encoder.rs:
+C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\encode.rs:
+C:\Users\tropson\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.10.1\src\decode.rs:
