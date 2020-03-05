@@ -1,0 +1,7 @@
+[package]
+name = "Set1Callenge6c"
+version = "0.1.0"
+authors = ["Tony Ropson <tropson@skylinetechnologies.com>"]
+edition = "2018"
+
+[dependencies]
