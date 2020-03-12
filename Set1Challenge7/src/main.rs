@@ -7,7 +7,50 @@ struct Block {
     four: Vec<u8>,
  
 }
+impl Block {
 
+    fn InvShiftRows(&self)  -> Block {
+        let  InvShiftRowsblock =  Block {
+            one:self.one.clone(),
+            two:self.two.clone(),
+            three:self.three.clone(),
+            four:self.four.clone()
+        };
+        InvShiftRowsblock
+    }
+
+    fn InvSubBytes(&self) -> Block {
+        let  InvSubBytesblock =  Block {
+            one:self.one.clone(),
+            two:self.two.clone(),
+            three:self.three.clone(),
+            four:self.four.clone()
+        };
+        InvSubBytesblock
+    }
+
+    fn AddRoundKey(&self) -> Block {
+        let  AddRoundKeyblock =   Block {
+            one:self.one.clone(),
+            two:self.two.clone(),
+            three:self.three.clone(),
+            four:self.four.clone()
+        };
+        AddRoundKeyblock
+    }
+
+    fn InvMixColumns(&self) -> Block {
+        let  AddRoundKeyblock = Block {
+            one:self.one.clone(),
+            two:self.two.clone(),
+            three:self.three.clone(),
+            four:self.four.clone()
+        };
+        AddRoundKeyblock
+
+    }
+
+}
 
 fn main() {
    
@@ -27,7 +70,7 @@ fn main() {
 
 fn Inputbytes(input: Vec<u8>) -> Vec<Block>
 {
-    let mut finalBlocks:Vec<Block> = Vec::new();
+    let mut InitalState:Vec<Block> = Vec::new();
    
     let  AllBlocks:Vec<Vec<u8>> = input.chunks(16).map(|x| x.to_vec()).collect();
    for unstructured_blocks in AllBlocks
@@ -37,11 +80,11 @@ fn Inputbytes(input: Vec<u8>) -> Vec<Block>
         let structblock:Vec<Vec<u8>> = unstructured_blocks.chunks(4).map(|x| x.to_vec()).collect();
         let NewBlock = Newblock(structblock);
       
-      finalBlocks.push(NewBlock);
+        InitalState.push(NewBlock);
     }
 
 
-    finalBlocks
+    InitalState
 }
 
 fn Newblock(input_rows:Vec<Vec<u8>>) -> Block {
