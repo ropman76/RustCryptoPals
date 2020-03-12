@@ -46,9 +46,9 @@ fn Inputbytes(input: Vec<u8>) -> Vec<Block>
 
 fn Newblock(input_rows:Vec<Vec<u8>>) -> Block {
     Block {
-        one:input_rows[0],
-        two:input_rows[1],
-        three:input_rows[2],
-        four:input_rows[3]
+        one:input_rows[0].clone(),
+        two:input_rows[1].clone(),
+        three:input_rows[2].clone(),
+        four:input_rows[3].clone()
     }
 }
