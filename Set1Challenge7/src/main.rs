@@ -10,12 +10,42 @@ struct Block {
 impl Block {
 
     fn InvShiftRows(&self)  -> Block {
-        let  InvShiftRowsblock =  Block {
+        let mut  InvShiftRowsblock =  Block {
             one:self.one.clone(),
             two:self.two.clone(),
             three:self.three.clone(),
             four:self.four.clone()
         };
+        
+        let mut row_two = InvShiftRowsblock.two.clone();
+
+        let threehold = row_two[3];
+        row_two[3] =row_two[2];
+        row_two[2] = row_two[1];
+        row_two[1] =row_two[0];
+        row_two[0] =threehold ;
+        
+        InvShiftRowsblock.two = row_two;
+
+
+        let mut row_three = InvShiftRowsblock.three.clone();
+
+        row_three[2] =  row_three[0]; 
+        row_three[3] =  row_three[1];
+        row_three[0] =  row_three[2];
+        row_three[1] =  row_three[3];
+
+        InvShiftRowsblock.three = row_three;
+        
+        let mut row_four = InvShiftRowsblock.four.clone();
+        
+        row_four[3] = row_four[0];
+        row_four[0] = row_four[1];
+        row_four[1] = row_four[2];
+        row_four[2] = row_four[3];
+
+        InvShiftRowsblock.four = row_four;
+
         InvShiftRowsblock
     }
 
